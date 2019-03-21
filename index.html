@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal</title>
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" 
+    integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Oxygen" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    
+</head>
+<body>
+	<header>
+		<header class="mb-5">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-5 ">
+                
+                <a class="navbar-brand" href="#"><span><i class="fas fa-igloo"></i></span> Zihao</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                    <ul class="navbar-nav ">  
+                    	<li class="nav-item active">
+                            <a class="nav-link" href="#projectSection">Projects </a>
+                        </li>                      
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#skillSection">Skills </a>
+                        </li> 
+                        
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#aboutSection">About </a>
+                        </li>                                                               
+                    </ul>
+              </div>
+        </nav>	
+	</header>
+
+
+	<main>
+		<section class="home" >
+			<div class="home-container">
+				<h1 class="display-3">Hello, I'm Zihao Zheng</h1>
+				<h3>Bay Area, California</h3>
+				<h2>Junior Front-End Web Developer</h2>
+			</div>
+
+			<div class="home-icons">
+				<a class="icons" href="https://www.linkedin.com/in/zihaozheng1z/" target="_blank"><span><i class="fab fa-linkedin fa-5x"></i></a>
+				<a class="icons" href=""><i class="fab fa-github fa-5x"></i></a>
+				<a class="icons" href="mailto:zihao.zheng12@gmail.com"><i class="fab fa-google fa-5x"></i></a>
+			</div>
+		</section>
+
+		<section class="projects" id="projectSection">
+			<div class="container text-center">
+				<h1 class="display-3">My Projects</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 mb-4">
+					<div class="card">
+						<img class="card-img-top" src="image/project4.png">
+						<div class="card-body">
+							<h5 class="card-title text-center"> ImageCave</h5>
+							<P>Inspired by Flickr & Unsplash, welcome everyone to share their beautiful photos.
+							</P>
+							<small>(#React, #Python, #Flask, #Bootstrap)</small>
+							<div class="links text-center mt-3">
+							<a href=""><i class="fab fa-github fa-2x"></i>
+							</a>
+							<a href="https://react-app-project5.herokuapp.com/"><i class="fas fa-link fa-2x"></i></i>
+							</a>
+							</div>					
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="card">
+						<img class="card-img-top" src="image/project3.png">
+						<div class="card-body">
+							<h5 class="card-title text-center"> WeatherNow</h5>
+							<P>Providing the current weather status by user enter the city.       
+							 </P>
+							 <small>(#React.js, #MongoDB, #Express #Third-Party-Api)</small>
+							<div class="links text-center mt-3">
+							<a href=""><i class="fab fa-github fa-2x"></i>
+							</a>
+							<a href="https://project3-frontend.herokuapp.com/"><i class="fas fa-link fa-2x"></i></i>
+							</a>
+							</div>					
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="card">
+						<img class="card-img-top" src="image/project2.png">
+						<div class="card-body ">
+							<h5 class="card-title text-center"> SanityHealth</h5>
+							<p>Allow users to write a post and leave comments for others
+							</p>
+							<small>(#Node.js, #MongoDB,#Express, #HTML/CSS,Javascript)</small>
+						
+							<div class="links text-center mt-3">
+							<a href=""><i class="fab fa-github fa-2x"></i>
+							</a>
+							<a href="https://sanity-health-appz.herokuapp.com/"><i class="fas fa-link fa-2x"></i></i>
+							</a>	
+							</div>				
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<section class="skills" id="skillSection">
+			<div>
+				<h1 class="text-center">Skills & Tools</h1>
+
+				<div>
+				<button type="button" class="btn btn-info btn-lg ml-5">Languages</button>
+				<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  					<label class="btn btn-secondary ">
+    					<input type="radio" name="options" id="option1" autocomplete="off" > HTML
+  					</label>
+ 					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option2" autocomplete="off"> CSS
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> JavaScript
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> jQuery
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> Python
+  					</label>
+				</div>
+
+				<div>
+				<button type="button" class="btn btn-success btn-lg ml-5 ">Frameworks</button>
+				<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  					<label class="btn btn-secondary ">
+    					<input type="radio" name="options" id="option1" autocomplete="off" > Node.js
+  					</label>
+ 					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option2" autocomplete="off"> Express
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> React
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> Flask
+  					</label>
+				</div>
+				</div>
+
+				<div>
+				<button type="button" class="btn btn-dark btn-lg ml-5">Tools</button>
+				<div class="btn-group btn-group-toggle ml-5" data-toggle="buttons">
+ 					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option2" autocomplete="off"> Git
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> Postman
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> Heroku
+  					</label>
+				</div>
+				</div>
+
+				<div>
+				<button type="button" class="btn btn-warning btn-lg ml-5">Database</button>
+				<div class="btn-group btn-group-toggle ml-3" data-toggle="buttons ">
+ 					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option2" autocomplete="off"> MongoDB
+  					</label>
+  					<label class="btn btn-secondary">
+    				<input type="radio" name="options" id="option3" autocomplete="off"> MySQL
+  					</label>
+				</div>
+				</div>
+
+			</div>		
+		</section>
+
+		<section class="about-me" id="aboutSection">
+			<div class="section-content">
+				<div class="container">
+					<div class="col-md-6">
+						<div class="about-text mb-3">
+						<h1>About Me</h1>
+						<p>I’m a junior Front-End Web Developer and a hardworking driven individual with a background in International Business. Always looking forward to meet new challenge.</p>
+						<P>Let's make the web better together</P>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+
+
+		
+
+	</main>
+
+
+	<footer  class="footer py-3 mt-auto bg-light ">
+        <div class="container flex flex-row">
+            <p class="float-right">
+                 <a href="#">Back to HomePage</a>
+            </p>
+            <a href="https://git.generalassemb.ly/ZihaoZ"><span><i class="fab fa-github"></i><small>Zihao Zheng</small></span></a>
+                    
+             <p> &copy; 2019 Personal Portfolio </p>
+                    
+        </div>
+    </footer>
+
+   
+   
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="JS/app.js"></script>
+</body>
+</html>

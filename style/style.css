@@ -1,0 +1,44 @@
+.home{
+	width: 100%;
+	min-height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image:url("../image/home.jpeg");
+	overflow: hidden;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.home-container{
+	margin: 50px auto;
+}
+
+.icons{
+	margin: 5px 15px;
+}
+
+.card{
+	margin:0 15px;
+}
+
+.skills{
+	width: 100%;
+	margin: 10px;
+}
+
+.projects{
+	background-color: grey;
+	position: relative;
+}
+
+#aboutSection{
+	background:url("../image/about.jpeg") top left no-repeat fixed;
+	background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
