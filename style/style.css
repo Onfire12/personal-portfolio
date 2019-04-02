@@ -1,3 +1,7 @@
+*{
+	scroll-behavior: smooth;
+}
+
 .home{
 	width: 100%;
 	min-height: 600px;
@@ -25,7 +29,13 @@
 .skills{
 	width: 100%;
 	margin: 10px;
+	position: relative;
 }
+
+.skillsbars{
+	margin: 10px;
+}
+
 
 .projects{
 	background-color: grey;
