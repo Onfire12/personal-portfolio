@@ -52,3 +52,30 @@
     color: white;
     padding: 1.875rem;
 }
+
+.home-container h2{
+	position: relative;
+	border-right: 2px solid black;
+	overflow: hidden;    
+	color: brown;
+	margin: 0 auto;
+	top:50%;
+
+}
+/* Animation */
+.anim-typewriter{
+	height: 1.25em;
+	width:19.5em;
+	animation: typing 3.5s steps(37, end), caret .75s step-end infinite;
+    font-family: Consolas, Monaco;
+    word-break: break-all;
+    overflow: hidden;
+  }
+  @keyframes typing{
+	from{width: 0;}
+	to{width: 19.5em;}
+  }
+  @keyframes caret{
+	from,to {border-right-color: transparent;}
+	50% {border-right-color: currentColor;}
+  }
